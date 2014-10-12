@@ -5,8 +5,8 @@ app.controller('TodoCtrl', function($scope) {
     $scope.todos = [
         'Learn Angular',
         'Look at Dribbble and feel inferior',
-        'Actually learn how to use the Pen tool'
-        'Learn Spanish'
+        'Actually learn how to use the Pen tool',
+        'Learn Spanish',
         'Use famou.us animations'
     ];
 

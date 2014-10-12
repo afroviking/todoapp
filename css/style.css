@@ -3,6 +3,26 @@ html, body {
   width: 100%;
 }
 
+.content {
+  margin: 50px 50px 20px;
+  border: 2px solid #006599;
+  border-radius: 10px;
+  padding: 10px;
+  color: red;
+}
+
+.header {
+  color: #9f9393;
+border: 1px solid;
+padding: 10px;
+max-height: 120px;
+max-width: 300px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20px;
+border-color: rgb(105, 153, 190);
+}
+
 h2 {
 	margin-top: 20px;
 	margin-bottom: 10px;
@@ -43,6 +63,7 @@ body {
   cursor: pointer;
   border-radius: 6px;
   padding: 14px;
+  color: black;
 }
 
 .todo-list li .bt {
@@ -67,7 +88,7 @@ body {
 
 .todo-list li .bt:active {
   box-shadow: 0 2px 0 #006599;
-  transform: translateY(3px);
+  transform: translateY(1px);
 }
 
 .todo-list li .bt:hover {

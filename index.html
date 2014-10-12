@@ -7,8 +7,11 @@
 
 <body data-ng-app="Todo">
     <div class="page-container" data-ng-controller="TodoCtrl">
+        <div class="header"> 
         <h2>To Do List</h2>
+    </div>
 
+<div class="content">
         <ul class="todo-list" data-ng-repeat="todo in todos track by $index">
             <li>
                 <span>{{ todo }}</span>
@@ -21,6 +24,7 @@
                 <input type="text" class="txt" data-ng-model="newTodo" placeholder="New To Do Task" data-ng-keyup="add($event)" />
             </li>
         </ul>
+    </div>
 
     </div>
 
